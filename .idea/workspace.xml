@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d33966-77e1-4f8a-b092-382b60a4931e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iterator/Iterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/setTimeout_promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proxy/proxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/箭头函数/arrow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set_Map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Set_Map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set_Map/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/Set_Map/set.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +17,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class/class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Module/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/箭头函数/arrow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,12 +80,16 @@
         <option value="$PROJECT_DIR$/Promise/setTimeout_promise.js" />
         <option value="$PROJECT_DIR$/Iterator/Iterator.js" />
         <option value="$PROJECT_DIR$/async/async.js" />
+        <option value="$PROJECT_DIR$/module/module.js" />
+        <option value="$PROJECT_DIR$/Module/module.js" />
+        <option value="$PROJECT_DIR$/Class/class.js" />
+        <option value="$PROJECT_DIR$/箭头函数/arrow.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="y" value="261" />
+    <option name="x" value="98" />
+    <option name="y" value="560" />
     <option name="width" value="1678" />
     <option name="height" value="964" />
   </component>
@@ -72,7 +108,7 @@
             <path>
               <item name="ES6" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6" type="462c0819:PsiDirectoryNode" />
-              <item name="async" type="462c0819:PsiDirectoryNode" />
+              <item name="箭头函数" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,17 +148,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Iterator.js">
+  <component name="RunManager" selected="Node.js.arrow.js">
     <configuration name="Iterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Iterator.js" working-dir="$PROJECT_DIR$/Iterator">
       <method v="2" />
     </configuration>
-    <configuration name="map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="map.js" working-dir="$PROJECT_DIR$/Set_Map">
+    <configuration name="arrow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="arrow.js" working-dir="$PROJECT_DIR$/箭头函数">
+      <method v="2" />
+    </configuration>
+    <configuration name="class.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/Class">
       <method v="2" />
     </configuration>
     <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/Promise">
-      <method v="2" />
-    </configuration>
-    <configuration name="proxy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="proxy.js" working-dir="$PROJECT_DIR$/Proxy">
       <method v="2" />
     </configuration>
     <configuration name="setTimeout_promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="setTimeout_promise.js" working-dir="$PROJECT_DIR$/Promise">
@@ -130,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.arrow.js" />
+        <item itemvalue="Node.js.class.js" />
         <item itemvalue="Node.js.Iterator.js" />
         <item itemvalue="Node.js.setTimeout_promise.js" />
         <item itemvalue="Node.js.promise.js" />
-        <item itemvalue="Node.js.proxy.js" />
-        <item itemvalue="Node.js.map.js" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +187,23 @@
       <workItem from="1562658407193" duration="8828000" />
       <workItem from="1562667821158" duration="58000" />
       <workItem from="1562720995607" duration="15130000" />
+      <workItem from="1562900575017" duration="7470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24016000" />
+    <option name="totallyTimeSpent" value="31486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="261" width="1678" height="964" extended-state="0" />
+    <frame x="98" y="560" width="1678" height="964" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12987804" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09695122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2759036" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07590362" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -224,13 +261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Iterator/Iterator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -262,6 +292,34 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class/class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/箭头函数/arrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
