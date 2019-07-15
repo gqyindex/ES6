@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d33966-77e1-4f8a-b092-382b60a4931e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class/class.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/箭头函数/arrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_set/defineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_set/get.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/async/async.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="532">
               <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class/class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="874">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -39,17 +38,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module/module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="570">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/箭头函数/arrow.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_set/defineProperty.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,12 +95,14 @@
         <option value="$PROJECT_DIR$/Module/module.js" />
         <option value="$PROJECT_DIR$/Class/class.js" />
         <option value="$PROJECT_DIR$/箭头函数/arrow.js" />
+        <option value="$PROJECT_DIR$/get_set/get.js" />
+        <option value="$PROJECT_DIR$/get_set/defineProperty.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="560" />
+    <option name="x" value="-168" />
+    <option name="y" value="253" />
     <option name="width" value="1678" />
     <option name="height" value="964" />
   </component>
@@ -98,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,19 +122,18 @@
             <path>
               <item name="ES6" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6" type="462c0819:PsiDirectoryNode" />
-              <item name="箭头函数" type="462c0819:PsiDirectoryNode" />
+              <item name="get_set" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ElementUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.arrow.js">
+  <component name="RunManager" selected="Node.js.defineProperty.js">
     <configuration name="Iterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Iterator.js" working-dir="$PROJECT_DIR$/Iterator">
       <method v="2" />
     </configuration>
@@ -158,19 +171,19 @@
     <configuration name="class.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/Class">
       <method v="2" />
     </configuration>
-    <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/Promise">
+    <configuration name="defineProperty.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="defineProperty.js" working-dir="$PROJECT_DIR$/get_set">
       <method v="2" />
     </configuration>
-    <configuration name="setTimeout_promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="setTimeout_promise.js" working-dir="$PROJECT_DIR$/Promise">
+    <configuration name="get.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="get.js" working-dir="$PROJECT_DIR$/get_set">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.defineProperty.js" />
+        <item itemvalue="Node.js.get.js" />
         <item itemvalue="Node.js.arrow.js" />
         <item itemvalue="Node.js.class.js" />
         <item itemvalue="Node.js.Iterator.js" />
-        <item itemvalue="Node.js.setTimeout_promise.js" />
-        <item itemvalue="Node.js.promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -188,21 +201,24 @@
       <workItem from="1562667821158" duration="58000" />
       <workItem from="1562720995607" duration="15130000" />
       <workItem from="1562900575017" duration="7470000" />
+      <workItem from="1562913703588" duration="90000" />
+      <workItem from="1563155796246" duration="2607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31486000" />
+    <option name="totallyTimeSpent" value="34183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="560" width="1678" height="964" extended-state="0" />
+    <frame x="-168" y="253" width="1678" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09695122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.07590362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27831325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,22 +313,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/async/async.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="532">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Class/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="874">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_set/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -320,6 +343,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_set/defineProperty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
