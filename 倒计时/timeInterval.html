@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+    <style>
+        #card {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            box-shadow: 5px 5px 10px #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="card">
+</div>
+<script>
+    downTime = (target) => {
+        let card = document.getElementById('card');
+
+        let now = new Date().getTime(); // 获取的是毫秒数
+        let distance = new Date(target).getTime() - now;
+        if (distance < 0) {
+            return;
+        }
+        const day = 24 * 60 * 60 * 1000;
+        const hour = 60 * 60 * 1000;
+        const minute = 60 * 1000;
+        const seconds = 1000;
+
+        let d = Math.floor(distance / day);
+        let h = Math.floor((distance - d * day) / hour);
+        let m = Math.floor((distance - d * day - h * hour) / minute);
+        let s = Math.floor((distance - d * day - h * hour - m * minute) / seconds);
+
+        let content = `${d}天 ${h}时 ${m}分 ${s}秒`;
+        card.innerHTML = content;
+
+        let arr = ['加油', '再坚持一下', '今天也是高效的一天', '学习完回家开心', '不能输'];
+        let num = Math.floor(Math.random() * 5);
+        card.innerHTML += '</br>';
+        card.innerHTML += arr[num];
+
+        clearInterval();
+    };
+
+    /* saying = () => {
+         let arr = ['加油','再坚持一下','今天也是高效的一天','学习完回家开心','不能输'];
+         let say = arr[Math.random()*10+1];
+         card.innerHTML = say;
+     };*/
+
+    setInterval(function () {
+        downTime('2019-12-22')
+    }, 1000)
+</script>
+
+</body>
+</html>

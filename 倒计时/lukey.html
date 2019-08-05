@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 随机数函数
+    function randomNum(minNum,maxNum){
+        switch(arguments.length){
+            case 1:
+                return parseInt(Math.random()*minNum+1,10);
+                break;
+            case 2:
+                return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10);
+                break;
+            default:
+                return 0;
+                break;
+        }
+    }
+    // 参与抽奖人员
+    let personnel = ['程序陈', 'huyu2019', '一枝梅花斗风雪', 'Qin琴子', '骑蜗牛追导弹35502946', '橙野儿'];
+    let luckyIndex = randomNum(0, personnel.length);
+    let luckyName = personnel[luckyIndex];
+    console.log('恭喜 ' + luckyName + ' 中奖，谢谢您的支持');
+</script>
+</body>
+</html>
